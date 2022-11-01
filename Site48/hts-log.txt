@@ -1,0 +1,22 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 29 Oct 2022 16:02:09 at https://www.worldgym.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.worldgym.com/ -O1 "C:\Users\RAJAT SINGH\OneDrive\Desktop\Internship myknot\Day10\Web48\Site48" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:03:31	Error: 	"Not Found" (404) at link js.hs-scripts.com/6689002.js (from https://www.worldgym.com/)
+16:03:31	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://www.worldgym.com/)
+16:03:40	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://fast.fonts.net/t/1.css?apiType=css&projectid=7c4d14b0-8e33-46cf-a5ed-a0accab7c601
+16:08:10	Error: 	"Not Found" (404) at link https://www.worldgym.com/c (from https://connect.facebook.net/en_US/fbevents.js)
+16:08:10	Error: 	"Not Found" (404) at link https://www.worldgym.com/b (from https://connect.facebook.net/en_US/fbevents.js)
+16:08:10	Error: 	"Not Found" (404) at link https://www.worldgym.com/POST (from https://connect.facebook.net/en_US/fbevents.js)
+16:08:10	Error: 	"Not Found" (404) at link https://www.worldgym.com/root/assets/fonts/glyphicons-halflings-regular.svg (from https://www.worldgym.com/root/assets/css/bundles?v=6ImQLNZe6due204ddj45VnRYZSPAOW_4igfi7pg_Xhk1)
+16:11:28	Error: 	"Not Found" (404) at link https://www.worldgym.com/)/ (from https://www.worldgym.com/blog)
+16:11:28	Error: 	"Not Found" (404) at link https://www.worldgym.com/assets/images/iStock-637772330.jpg (from https://www.worldgym.com/assets/pageStyles/why-world-gym.css)
+16:11:28	Error: 	"Not Found" (404) at link https://www.worldgym.com/assets/images/world-gym-franchise-temp-banner.jpg (from https://www.worldgym.com/assets/pageStyles/workout-tips.css)
+16:11:29	Error: 	"Not Found" (404) at link https://www.worldgym.com/blog/)/ (from https://www.worldgym.com/blog/strength-training)
+
+HTTrack Website Copier/3.49-2 mirror complete in 9 minutes 20 seconds : 342 links scanned, 331 files written (148851767 bytes overall) [137832504 bytes received at 246129 bytes/sec], 20194833 bytes transferred using HTTP compression in 97 files, ratio 24%, 1.0 requests per connection
+(10 errors, 1 warnings, 0 messages)

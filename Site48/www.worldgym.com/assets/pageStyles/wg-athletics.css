@@ -1,0 +1,283 @@
+.pageHeroImgHeight{
+	min-height: 346px;
+}
+	
+	.wgathleticsmain {
+    /*font-size: 1.1em;*/
+    line-height: 1.7em;
+  }
+  .wgathleticsmain .subtitle1 {
+    font-size: 1.4em;
+    font-family: 'acumin-pro-condensed';
+    font-weight: 500;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+  .wgathleticsmain .txt {
+    color: #616161 !important;
+    font-weight: 400;
+  }
+
+  .wgathleticsmain .wgathleticsonefullimage h4, .wgathleticsmain .wgathleticslikethis .bold{
+    /* color: #212121; */
+  }
+
+  .wgathleticsmain .wgathleticsheroarea {
+    background-image: url(../images/world-gym-franchise-temp-banner.html);
+    background-size: cover;
+    overflow: hidden;
+    min-height: 500px;
+    position: relative;
+  }
+  .wgathleticsmain .wgathleticsheroarea:before {
+    background: linear-gradient(232deg, rgba(255, 0, 0, 0) 70%, rgba(118, 25, 41, 0.6) 100%), url(../../root/assets/images/hero-texture.png);
+    position: absolute;
+    content: '';
+    width: 100%;
+    z-index: 0;
+    height: 100%;
+  }
+    .wgathleticsmain .wgathleticsonefullimage #onefullimageContent{
+      margin-top: 10%;
+      padding-right: 5%;
+    }
+  @media only screen and (max-width: 767px) {
+    .wgathleticsmain .wgathleticsheroarea {
+      /*min-height: 350px;
+      background-position: -100px 100px;*/
+    }
+  }
+  .wgathleticsmain .wgathleticsheroarea p {
+   /* color: #FFF; */
+  }
+  .wgathleticsmain .wgathleticsheroarea p a {
+    /* color: #FFF; */
+  }
+  .wgathleticsmain .wgathleticsheroarea .row {
+    margin-right: auto;
+    margin-left: -18px;
+  }
+  @media only screen and (max-width: 767px) {
+    .wgathleticsmain .wgathleticsheroarea .row {
+      margin-left: -50px;
+    }
+  }
+  .wgathleticsmain .wgathleticsheroarea .row .pull-right {
+    padding: 5% 1%;
+    margin: 15px;
+  }
+  @media only screen and (min-width: 768px) {
+    .wgathleticsmain .wgathleticsheroarea .row .pull-right {
+      margin: 0px;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .wgathleticsmain .wgathleticsheroarea .row .pull-right .WGrotateDiv {
+      margin-right: -15px;
+    }
+  }
+  .wgathleticsmain .wgathleticsheroarea .WGrotateDiv {
+    transform: rotate(-7.5deg);
+    min-height: 380px;
+  }
+  @media only screen and (max-width: 767px) {
+    .wgathleticsmain .wgathleticsheroarea .WGrotateDiv {
+      min-height: 280px;
+    }
+  }
+  .wgathleticsmain .wgathleticsheroarea .WGrotateDiv .titleMain {
+    position: absolute;
+    bottom: 0px;
+    font-size: 7em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+  }
+  @media only screen and (max-width: 767px) {
+    .wgathleticsmain .wgathleticsheroarea .WGrotateDiv .titleMain {
+      font-size: 3em;
+    }
+  }
+  .wgathleticsmain .olgap {
+    margin-top: 5px;
+  }
+  .wgathleticsmain .wgathleticslikethis {
+    margin-top: 30px;
+    margin-bottom: 45px;
+  }
+  @media only screen and (max-width: 767px) {
+    .wgathleticsmain .wgathleticslikethis {
+      margin-top: 10px;
+    }
+  }
+  .wgathleticsmain .wgathleticslikethis ul {
+    padding: 0px;
+    color: #FF0000;
+    font-size: 1.5em;
+  }
+  .wgathleticsmain .wgathleticslikethis ul p {
+    color: black;
+    margin: 0px;
+    font-size: 1em;
+  }
+  @media only screen and (max-width: 767px) {
+    .wgathleticsmain .wgathleticslikethis .subtitle {
+      font-size: 2em;
+    }
+    .wgathleticsmain .wgathleticsonefullimage {
+        margin-bottom: 0 !important;
+      	padding-bottom: 15px;
+    }
+  }
+  .wgathleticsmain .wgathleticslikethis .lspace {
+    letter-spacing: 6px;
+    line-height: inherit;
+  }
+  @media only screen and (max-width: 767px) {
+    .wgathleticsmain .wgathleticslikethis .lspace {
+      letter-spacing: 4px;
+    }
+  }
+  .wgathleticsmain .wgathleticslikethis .bold {
+    color: #212121;
+    font-size: 2.5em;
+    font-family: 'acumin-pro-condensed';
+    font-weight: 700;
+  }
+  @media only screen and (max-width: 767px) {
+    .wgathleticsmain .wgathleticslikethis .bold {
+      font-size: 2em;
+    }
+	.pageHeroImgHeight{
+		min-height: 250px;
+	}
+  }
+  @media only screen and (min-width: 992px) {
+    .wgathleticsmain .wgathleticslikethis .contentalign {
+      -webkit-column-count: 2;
+      /* Chrome, Safari, Opera */
+      -moz-column-count: 2;
+      /* Firefox */
+      column-count: 2;
+      -webkit-column-gap: 55px;
+      /* Chrome, Safari, Opera */
+      -moz-column-gap: 55px;
+      /* Firefox */
+      column-gap: 55px;
+    }
+    .wgathleticsmain .wgathleticslikethis .contentalign p {
+      margin: 0;
+    }
+
+  }
+  .wgathleticsmain .pd0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .wgathleticsmain .mr0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .wgathleticsmain .col-md-offset-1 {
+    margin-left: 5.33333333%;
+  }
+  .wgathleticsmain .boldstyle {
+    font-size: 1.2em;
+    font-family: 'acumin-pro-condensed';
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .wgathleticsmain .topgap {
+    margin-top: 10px !important;
+  }
+  .wgathleticsmain .wgathleticsonefullimage {
+    margin-top: 30px;
+    margin-bottom: 45px;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+  }
+  .wgathleticsmain .wgathleticsonefullimage h4 {
+    color: #212121;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .wgathleticsmain  ul {
+    list-style-type: none;
+    list-style-image: url(../../root/assets/images/dot.png);
+    margin-left: -21px;
+  }
+  .wgathleticsmain .wgathleticsonefullimage .box-space {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .wgathleticsmain .wgathleticsonefullimage .learn-btn {
+    color: #000;
+    background-color: #fff;
+    border-color: #828282;
+    border-width: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 15px 25px;
+  }
+  .wgathleticsmain .wgathleticsonefullimage .readmore {
+    font-weight: 700;
+    font-size: 1em;
+    text-transform: uppercase;
+  }
+  .wgathleticsmain .wgathleticsonefullimage .nomargin {
+    margin-top: 0px;
+  }
+  .wgathleticsmain  .learn-btn {
+    color: #000;
+    background-color: #fff;
+    border-color: #828282;
+    border-width: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 15px 25px;
+  }
+  .wgathleticsmain  .learn-btn:hover {
+    background-color: #212121;
+    color: #D6D3D3;
+    border-color: #212121;
+    text-decoration: none !important;
+  }
+  .wgathleticsmain .wgathleticsonefullimage .col-md-6.pd0:before {
+    background: url(../../root/assets/images/hero-texture.png);
+    position: absolute;
+    content: '';
+    width: 100%;
+    z-index: 0;
+    height: 100%;
+  }
+  @media only screen and (min-width: 768px){
+    .wgathleticsmain .heroimage_inner #carousel-captions .carousel-caption .h1 {
+      font-size: 6em;
+    }
+	.pageHeroImgHeight{
+		min-height: 350px;
+	}
+  }
+  
+  
+  @media only screen and (max-width: 992px) {
+    .wgathleticsmain {
+      position: relative; 
+    }
+  }
+  @media only screen and (max-width: 991px) and  (min-width: 768px) {
+    .wgathleticsmain .well ul {
+      margin-left: -6px;
+    }
+    .wgathleticsmain {
+      position: relative;
+      /*top: 130px;*/
+    }
+  } 
+  
+  
+  .wgathleticsmain .contentalign h2{
+    margin-top:0;
+  }

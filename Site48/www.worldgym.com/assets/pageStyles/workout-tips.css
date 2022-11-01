@@ -1,0 +1,379 @@
+.pageHeroImgHeight{
+  min-height: 346px;
+}
+.iframeinner{
+	color: white;
+	border: 1px solid white;
+	padding: 12px 37px;
+	border-radius: 15%;
+}
+.learnBtnStyle{
+	margin-bottom:10px;
+}
+
+
+.workouttipsmain .workouttipslikethis .bold, .workouttipsmain .workouttipsonefullimage #onefullimageContent .subtitle{
+    /* color: #212121; */
+  }
+  .workouttipsmain .workouttipsonefullimage #onefullimageContent{
+    margin-top: 50px;
+    padding-right: 25px;
+  }
+  .workouttipsmain {
+    /*font-size: 1.1em;*/
+    line-height: 1.7em;
+    color: #212121;
+  }
+  .workouttipsmain .subtitle1 {
+    font-size: 1.4em;
+    font-family: 'acumin-pro-condensed';
+    font-weight: 500;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+  .workouttipsmain .txt {
+    color: #616161 !important;
+    font-weight: 400;
+  }
+  .workouttipsmain .workouttipsheroarea {
+    background-image: url(../images/world-gym-franchise-temp-banner.html);
+    background-size: cover;
+    overflow: hidden;
+    /*min-height: 500px;*/
+    position: relative;
+  }
+  .workouttipsmain .workouttipsheroarea:before {
+    background: linear-gradient(232deg, rgba(255, 0, 0, 0) 70%, rgba(118, 25, 41, 0.6) 100%), url(../../root/assets/images/hero-texture.png);
+    position: absolute;
+    content: '';
+    width: 100%;
+    z-index: 0;
+    height: 100%;
+  }
+  @media only screen and (max-width: 767px) {
+    .workouttipsmain .workouttipsheroarea {
+      /*min-height: 350px;
+      background-position: -100px 100px;*/
+    }
+  .pageHeroImgHeight{
+    min-height: 250px;
+  }
+  }
+  .workouttipsmain .workouttipsheroarea p {
+/*    color: #FFF; */
+  }
+  .workouttipsmain .workouttipsheroarea p a {
+/*    color: #FFF; */
+  }
+  .workouttipsmain .workouttipsheroarea .row {
+    margin-right: auto;
+    margin-left: -18px;
+  }
+  @media only screen and (max-width: 767px) {
+    .workouttipsmain .workouttipsheroarea .row {
+      margin-left: -50px;
+    }
+  }
+  .workouttipsmain .workouttipsheroarea .row .pull-right {
+    padding: 5% 1%;
+    margin: 15px;
+  }
+  @media only screen and (min-width: 768px) {
+    .workouttipsmain .workouttipsheroarea .row .pull-right {
+      margin: 0px;
+    }
+  .pageHeroImgHeight{
+    min-height: 350px;
+  }
+  }
+  @media only screen and (min-width: 768px) {
+    .workouttipsmain .workouttipsheroarea .row .pull-right .WGrotateDiv {
+      margin-right: -15px;
+    }
+  }
+  .workouttipsmain .workouttipsheroarea .WGrotateDiv {
+    transform: rotate(-7.5deg);
+    min-height: 380px;
+  }
+  @media only screen and (max-width: 767px) {
+    .workouttipsmain .workouttipsheroarea .WGrotateDiv {
+      min-height: 280px;
+    }
+  }
+  .workouttipsmain .workouttipsheroarea .WGrotateDiv .titleMain {
+    position: absolute;
+    bottom: 0px;
+    font-size: 7em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+  }
+  @media only screen and (max-width: 767px) {
+    .workouttipsmain .workouttipsheroarea .WGrotateDiv .titleMain {
+      font-size: 3em;
+    }
+  }
+  .workouttipsmain .olgap {
+    margin-top: 5px;
+  }
+  .workouttipsmain .workouttipslikethis {
+    margin-top: 30px;
+    margin-bottom: 45px;
+  }
+  @media only screen and (max-width: 767px) {
+    .workouttipsmain .workouttipslikethis {
+      margin-top: 10px;
+    }
+  }
+  .workouttipsmain .workouttipslikethis ul {
+    padding: 0px;
+    color: #FF0000;
+    font-size: 1.5em;
+  }
+  .workouttipsmain .workouttipslikethis ul p {
+    color: black;
+    margin: 0px;
+    font-size: 1em;
+  }
+  @media only screen and (max-width: 767px) {
+    .workouttipsmain .workouttipslikethis .subtitle {
+      font-size: 2em;
+    }
+  }
+  .workouttipsmain .workouttipslikethis .lspace {
+    letter-spacing: 6px;
+    line-height: inherit;
+  }
+  @media only screen and (max-width: 767px) {
+    .workouttipsmain .workouttipslikethis .lspace {
+      letter-spacing: 4px;
+    }
+  }
+  .workouttipsmain .workouttipslikethis .bold {
+    font-size: 2.5em;
+    font-family: 'acumin-pro-condensed';
+    font-weight: 700;
+  }
+  @media only screen and (max-width: 767px) {
+    .workouttipsmain .workouttipslikethis .bold {
+      font-size: 2em;
+    }
+    .workouttipsmain .workouttipsonefullimage {
+      margin-bottom: 0px !important;
+    }
+  }
+  @media only screen and (min-width: 992px) {
+    .workouttipsmain .workouttipslikethis .contentalign {
+      /* -webkit-column-count: 2;*/
+      /* Chrome, Safari, Opera */
+      /*-moz-column-count: 2;*/
+      /* Firefox */
+      /* column-count: 2; */
+     /* -webkit-column-gap: 55px;*/
+      /* Chrome, Safari, Opera */
+     /* -moz-column-gap: 55px;*/
+      /* Firefox */
+      /* column-gap: 55px; */
+    }
+    .workouttipsmain .workouttipslikethis .contentalign p {
+      margin: 0;
+    }
+  }
+  .workouttipsmain .pd0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .workouttipsmain .mr0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .workouttipsmain .col-md-offset-1 {
+    margin-left: 5.33333333%;
+  }
+  .workouttipsmain .boldstyle {
+    font-size: 1.2em;
+    font-family: 'acumin-pro-condensed';
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .workouttipsmain .topgap {
+    margin-top: 10px !important;
+  }
+  .workouttipsmain .well {
+    border: 0px;
+    padding: 40px;
+    background-color: #eaeaea;
+    border-radius: 0px;
+  }
+  .workouttipsmain .well p {
+    margin-top: 10px;
+  }
+  .workouttipsmain .well .subtitle1 {
+    margin: 0px;
+  }
+  .workouttipsmain .well .border {
+    border: 1px solid #C41330;
+    width: 45px;
+    opacity: 1;
+    height: 3px;
+  }
+  .workouttipsmain .well .contentblock {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .workouttipsmain .well ol {
+    margin-left: -25px;
+    color: #c41230;
+  }
+  .workouttipsmain .well ol li span {
+    color: #333333;
+  }
+  .workouttipsmain .well hr {
+    border-top: 2.3px solid #d0cece;
+  }
+  .workouttipsmain .workouttipsonefullimage {
+    margin-top: 30px;
+    margin-bottom: 45px;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+  }
+  .workouttipsmain .workouttipsonefullimage h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 3em;
+  }
+  .workouttipsmain  ul {
+    list-style-type: none;
+    list-style-image: url(../../root/assets/images/dot.png);
+    margin: 10px 0 10px -21px;
+  }
+  .workouttipsmain .workouttipsonefullimage .box-space {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .workouttipsmain .workouttipsonefullimage .learn-btn {
+    color: #000;
+    background-color: #fff;
+    border-color: #828282;
+    border-width: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 15px 25px;
+  }
+  .workouttipsmain .workouttipsonefullimage .readmore {
+    font-weight: 700;
+    font-size: 1em;
+    text-transform: uppercase;
+  }
+  .workouttipsmain .workouttipsonefullimage .nomargin {
+    margin-top: 0px;
+  }
+  .workouttipsmain .workouttipsatheleticsmain .atheletics {
+    padding: 20px 15px 20px 0px;
+  }
+  @media only screen and (max-width: 767px)
+  {
+    .workouttipsmain .workouttipsatheleticsmain .atheletics {
+      padding: 20px 15px 20px 15px;
+    }
+  }
+  .workouttipsmain .workouttipsatheleticsmain .atheletics .imagesection img {
+    max-height: 837px;
+  }
+  .workouttipsmain .workouttipsatheleticsmain .atheletics .contentsection h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  @media only screen and (max-width: 767px) {
+    .workouttipsmain .workouttipsatheleticsmain .atheletics .contentsection h4 {
+      text-align: center;
+    }
+  }
+  .workouttipsmain .workouttipsatheleticsmain .atheletics .contentsection ul {
+    list-style-type: none;
+    list-style-image: url(../../root/assets/images/dot.png);
+    margin-left: -21px;
+  }
+  @media only screen and (max-width: 767px) {
+    .workouttipsmain .workouttipsatheleticsmain .atheletics .contentsection ul {
+      margin-left: -21px;
+    }
+  }
+
+  .workouttipsmain  .learn-btn {
+    color: #000;
+    background-color: #fff;
+    border-color: #828282;
+    border-width: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 15px 25px;
+  }
+  .workouttipsmain  .learn-btn:hover {
+    background-color: #212121;
+    color: #D6D3D3;
+    border-color: #212121;
+    text-decoration: none !important;
+  }
+  .workouttipsmain .workouttipsonefullimage .col-md-6.pd0:before {
+    background: url(../../root/assets/images/hero-texture.png);
+    position: absolute;
+    content: '';
+    width: 100%;
+    z-index: 0;
+    height: 100%;
+  } 
+  .workouttipsmain .VideoplayBtn {
+    top: 50%;
+    left: 50%;
+    cursor: pointer;
+  }
+  @media only screen and (max-width: 767px){
+    .workouttipsmain .workouttipsatheleticsmain .imagesection {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .workouttipsmain .workouttipsatheleticsmain .contentsection {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+
+@media only screen and (max-width: 992px) {
+    .workouttipsmain {
+      position: relative; 
+    }
+  }
+  @media only screen and (max-width: 991px) and  (min-width: 768px) {
+    .workouttipsmain .well ul {
+      margin-left: -6px;
+    }
+    .workouttipsmain {
+      position: relative;
+      /*top: 130px;*/
+    }
+  } 
+  
+  
+  .workouttipsmain .contentalign h2{
+    margin-top:0;
+  }
+  
+  
+   .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0; overflow: hidden;
+  }
+  .video-container iframe,
+  .video-container object,
+  .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }

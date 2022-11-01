@@ -1,0 +1,182 @@
+.pageHeroImgHeight{
+  min-height: 346px;
+}
+.icon-dumble-padding{
+	padding-right: 8px;
+}
+.paddingLeft{
+	padding-left: 0;
+}
+.paddingRight{
+	padding-right: 0;
+}
+@media only screen and (min-width: 768px) {
+	.pageHeroImgHeight{
+	  min-height: 350px;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+    .ourclubsmain .ourclubs {
+      /*margin-top: -130px;*/
+    }
+  }
+  @media only screen and (max-width: 767px){
+    .ourclubsmain .medium {
+      font-size: 2em;
+    }
+	.pageHeroImgHeight{
+	  min-height: 250px;
+	}
+  }
+  .ourclubsmain .form-control {
+    padding: 10px;
+    border: 1.2px solid #000000;
+    border-radius: initial;
+  }
+  .ourclubsmain .atheleticsmain .atheletics .contentsection h4 {
+    text-transform: uppercase;
+  }
+  .ourclubsmain .well ul li:last-child {
+    border-bottom: 0;
+  }
+  .ourclubsmain #featuredamenities .amentiesblock:before,
+  .ourclubsmain #featuredamenities .amentiesblock:after{
+    content:normal;
+  }
+  .ourclubsmain #featuredamenities .well {
+    border: 0px;
+    padding: 40px;
+    background-color: #eaeaea;
+    border-radius: 0px;
+  }
+  @media only screen and (max-width: 767px){
+    .ourclubsmain #featuredamenities.container {
+      margin-right: 0; 
+      margin-left: 0;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .ourclubsmain #featuredamenities .well {
+      padding: 20px;
+    }
+    .ourclubsmain .well .lspace {
+      margin-left: 0; 
+    }
+    .ourclubsmain .well .semibold1 {
+      font-size: 1.3em;
+    }
+
+    .ourclubsmain section#featuredamenities{
+      margin: 0;
+    }
+    .ourclubsmain .atheleticsmain .imagesection{
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .ourclubsmain .atheleticsmain .contentsection{
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .ourclubsmain .likethis .bold {
+      font-size: 1.5em;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .atheleticsmain{
+      /*padding-bottom: 15%;*/
+    }
+  }
+  .ourclubsmain .likethis .bold {
+    font-size: 2.5em;
+    font-family: 'acumin-pro-condensed';
+    font-weight: 700;
+    color: #212121;
+  }
+  @media only screen and (max-width: 767px) {
+    .ourclubsmain .likethis .bold {
+      font-size: 2em;
+    }
+  }
+  
+  
+   @media only screen and (max-width: 992px) {
+    .ourclubsmain {
+      position: relative; 
+    }
+  }
+  @media only screen and (max-width: 991px) and  (min-width: 768px) {
+    .ourclubsmain .well ul {
+      margin-left: -6px;
+    }
+    .ourclubsmain {
+      position: relative;
+      /*top: 130px;*/
+    }
+  } 
+  
+  
+  .ourclubsmain .contentalign h2{
+    margin-top:0;
+  }
+  
+  
+   .rail-select select {
+      border: solid 1px grey;
+      border-radius: 3px;
+      font-size: 1.0666666666666667em;
+      color: gray;
+      height: 42px;
+      appearance: none;
+      -moz-appearance: none;
+      -webkit-appearance: none;
+    }
+    .rail-select .select-side:before { 
+      content : "";
+      position: absolute;
+      left    : 0;
+      bottom  : 0;
+      height  : 100%;
+      width   : 1px;  /* or 100px */
+    }
+    .rail-select {
+      position: relative;
+      width: 100%;
+    }
+    .rail-select .select-side {
+      width: 40px;
+      position: absolute;
+      top: 0px; 
+      height: 100%;
+      right:0; 
+      pointer-events:none;
+
+    }
+    .rail-select .select-side i {
+      left: 30%;
+      top: 12px;
+    }
+	
+	
+	#atheleticscontent ul li{
+    margin-left: -21px;
+  }
+  @media only screen and (max-width: 767px){
+    #atheleticscontent ul li{
+      margin-left: 0px;
+    }
+  }
+@media only screen and (max-width: 767px)
+{
+.ourclubsmain .well ul {
+    margin-left: -21px;
+}
+}
+.ourclubsmain .well ul li {
+    font-size: 1em;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'acumin-pro',sans-serif;
+    color: #212121;
+    line-height: 20px !important;
+}

@@ -1,0 +1,243 @@
+.pageHeroImgHeight{
+		min-height: 346px;
+	}
+.paddingLeft{
+	padding-left: 0;
+}
+.paddingRight{
+	padding-right: 0;
+}
+.learnBtnMargin{
+	margin-bottom:10px;
+}
+
+ .whyworldgymmain {
+    /*font-size: 1.1em;*/
+    line-height: 1.7em;
+  }
+  .whyworldgymmain .whyworldgymheroarea {
+    background-image: url(../images/iStock-637772330.html);
+    background-size: cover;
+    overflow: hidden;
+    min-height: 500px;
+    position: relative;
+  }
+  .whyworldgymmain .whyworldgymheroarea:before {
+    background: linear-gradient(232deg, rgba(255, 0, 0, 0) 70%, rgba(118, 25, 41, 0.6) 100%), url(../../root/assets/images/hero-texture.png);
+    position: absolute;
+    content: '';
+    width: 100%;
+    z-index: 0;
+    height: 100%;
+  }
+  @media only screen and (max-width: 767px) {
+    .whyworldgymmain .whyworldgymheroarea {
+      /*min-height: 350px;
+      background-position: -100px 100px;*/
+    }
+	.pageHeroImgHeight{
+		min-height: 250px;
+	}
+  }
+  .whyworldgymmain .whyworldgymheroarea p {
+  /* color: #FFF; */
+  }
+  .whyworldgymmain .whyworldgymheroarea p a {
+  /* color: #FFF; */
+  }
+  .whyworldgymmain .whyworldgymheroarea .row {
+    margin-right: auto;
+    margin-left: -18px;
+  }
+  @media only screen and (max-width: 767px) {
+    .whyworldgymmain .whyworldgymheroarea .row {
+      margin-left: -50px;
+    }
+  }
+  .whyworldgymmain .whyworldgymheroarea .row .pull-right {
+    padding: 5% 1%;
+    margin: 15px;
+  }
+  @media only screen and (min-width: 768px) {
+    .whyworldgymmain .whyworldgymheroarea .row .pull-right {
+      margin: 0px;
+    }
+	.pageHeroImgHeight{
+		min-height: 350px;
+	}
+  }
+  @media only screen and (min-width: 768px) {
+    .whyworldgymmain .whyworldgymheroarea .row .pull-right .WGrotateDiv {
+      margin-right: -15px;
+    }
+  }
+  .whyworldgymmain .whyworldgymheroarea .WGrotateDiv {
+    transform: rotate(-6deg);
+    min-height: 430px;
+  }
+  @media only screen and (max-width: 767px) {
+    .whyworldgymmain .whyworldgymheroarea .WGrotateDiv {
+      min-height: 280px;
+    }
+  }
+  .whyworldgymmain .whyworldgymheroarea .WGrotateDiv .titleMain {
+    position: absolute;
+    bottom: 15px;
+    font-size: 9em;
+    text-transform: uppercase;
+  }
+  @media only screen and (max-width: 767px) {
+    .whyworldgymmain .whyworldgymheroarea .WGrotateDiv .titleMain {
+      font-size: 3em;
+    }
+  }
+  .whyworldgymmain .whyworldgymlikethis {
+    margin-top: 30px;
+    margin-bottom: 45px;
+  }
+  @media only screen and (max-width: 767px) {
+    .whyworldgymmain .whyworldgymlikethis {
+      margin-top: 10px;
+      text-align: -webkit-center;
+    }
+  }
+  .whyworldgymmain .whyworldgymlikethis ul {
+    padding: 0px;
+    color: #FF0000;
+    font-size: 1.5em;
+  }
+  .whyworldgymmain .whyworldgymlikethis ul p {
+    color: black;
+    margin: 0px;
+    font-size: 1em;
+  }
+  @media only screen and (max-width: 767px) {
+    .whyworldgymmain .whyworldgymlikethis .subtitle {
+      font-size: 2em;
+    }
+  }
+  .whyworldgymmain .whyworldgymlikethis .lspace {
+    letter-spacing: 9px;
+    line-height: inherit;
+  }
+  @media only screen and (max-width: 767px) {
+    .whyworldgymmain .whyworldgymlikethis .lspace {
+      letter-spacing: 4px;
+    }
+  }
+  .whyworldgymmain .whyworldgymlikethis .bold {
+    font-size: 2.5em;
+    font-family: 'acumin-pro-condensed';
+    font-weight: 700;
+  }
+  @media only screen and (max-width: 767px) {
+    .whyworldgymmain .whyworldgymlikethis .bold {
+      font-size: 2em;
+    }
+  }
+  @media only screen and (min-width: 992px) {
+    .whyworldgymmain .whyworldgymlikethis .contentalign {
+      -webkit-column-count: 1;
+      /* Chrome, Safari, Opera */
+      -moz-column-count: 1;
+      /* Firefox */
+      column-count: 1;
+      -webkit-column-gap: 55px;
+      /* Chrome, Safari, Opera */
+      -moz-column-gap: 55px;
+      /* Firefox */
+      column-gap: 55px;
+    }
+    .whyworldgymmain .whyworldgymlikethis .contentalign p {
+      margin: 0;
+    }
+
+  }
+  @media only screen and (min-width: 768px) {
+    .whyworldgymmain .heroimage_inner #carousel-captions .carousel-caption .h1{
+      font-size:6em
+    }
+  }
+  .whyworldgymmain .whyworldgymatheleticsmain .whyworldgymatheletics {
+    padding: 20px;
+  }
+  .whyworldgymmain .whyworldgymatheleticsmain .whyworldgymatheletics .whyworldgymimagesection img {
+    max-height: 837px;
+  }
+  .whyworldgymmain .whyworldgymatheleticsmain .whyworldgymatheletics .whyworldgymcontentsection h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  @media only screen and (max-width: 767px) {
+    .whyworldgymmain .whyworldgymatheleticsmain .whyworldgymatheletics .whyworldgymcontentsection h4 {
+      text-align: center;
+    }
+  }
+  .whyworldgymmain .whyworldgymatheleticsmain .whyworldgymatheletics .whyworldgymcontentsection ul {
+    color: #c41230;
+  }
+  @media only screen and (max-width: 767px) {
+    .whyworldgymmain .whyworldgymatheleticsmain .whyworldgymatheletics .whyworldgymcontentsection ul {
+      margin-left: -21px;
+    }
+  }
+  .whyworldgymmain .whyworldgymatheleticsmain .whyworldgymatheletics .whyworldgymcontentsection ul li span {
+    color: #333333;
+  }
+  .whyworldgymmain  ul {
+    list-style-type: none;
+    list-style-image: url(../../root/assets/images/dot.png);
+    margin-left: -21px;
+  }
+  @media only screen and (max-width: 767px){
+    .whyworldgymmain .whyworldgymatheleticsmain .whyworldgymimagesection {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .whyworldgymmain .whyworldgymatheleticsmain .whyworldgymcontentsection {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+	
+@media only screen and (max-width: 992px) {
+.whyworldgymmain {
+  position: relative; 
+}
+}
+@media only screen and (max-width: 991px) and  (min-width: 768px) {
+.whyworldgymmain .well ul {
+  margin-left: -6px;
+}
+.whyworldgymmain {
+  position: relative;
+  /*top: 130px;*/
+}
+} 
+
+ .whyworldgymmain .contentalign h2{
+    margin-top:0;
+  }
+  .atheleticscontent ul li{
+    margin-left: -21px;
+  }
+  @media only screen and (max-width: 767px){
+    .atheleticscontent ul li{
+      margin-left: 0px;
+    }
+  }
+  .whyworldgymmain .atheleticscontent .learn-btn {
+    color: #000;
+    background-color: #fff;
+    border-color: #828282;
+    border-width: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 15px 25px;
+  }
+  .whyworldgymmain .atheleticscontent a.btn.btn-default.learn-btn:hover {
+    background-color: #212121;
+    color: #D6D3D3;
+    border-color: #212121;
+    text-decoration: none !important;
+  }

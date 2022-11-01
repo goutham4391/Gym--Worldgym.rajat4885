@@ -1,0 +1,347 @@
+.pageHeroImgHeight{
+	min-height: 346px;
+}
+.vertical{
+	bottom: 0;
+	top: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .swiper-slide {
+    background-size: cover;
+    background-position: center;
+  }
+  .successstoriesmain .reviews .address span{
+        vertical-align: top;
+  }
+  .gallery-top {
+    width: 100%;
+  }
+  .gallery-top1 {
+    /*height: 435px !important;*/
+    width: 100%;
+  }
+
+  .gallery-thumbs,
+  .gallery-thumbs1 {
+    height: 88px;
+    box-sizing: border-box;
+    padding: 10px 0;
+  }
+  .gallery-thumbs .swiper-slide-active,
+  .gallery-thumbs1 .swiper-slide-active {
+    opacity: 1;
+    border: 3px solid #c41230;
+  }
+  #ambassadors .carousel-controls {
+    float: left;
+    width: 200px;
+    position: relative;
+    margin-top: -15px;
+  }
+  #ambassadors .swiper-container.gallery-thumbs1 {
+    width: 100%;
+    float:left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .swiper-slide.swiper-slide-active {
+    opacity: 1;
+  }
+  .swiper-slide {
+    opacity: 0.6;
+  }
+  .successstoriesmain h1#titleText, .successstoriesmain .ambassadors .reviewsh1{
+    // ADA doesn't like this, TECH-19417
+    // color: #212121;
+  }
+  /*swiper*/
+
+  /* Success Stories */
+
+  @media only screen and (max-width: 1000px) {
+    .successstories {
+      /*margin-top: -122px;*/
+    }
+  }
+  @media only screen and (min-width: 768px){
+    .successstoriesmain .successstories {
+      /*min-height: 350px !important;
+      background-position: -100px 100px;*/
+    }
+    .successstoriesmain .ambassadors .reviewsh5 {
+      margin-top: 20px;
+      font-size:1em;
+    }
+	.pageHeroImgHeight{
+		min-height: 350px;
+	}
+  }
+  .successstoriesmain .ambassadors .reviewsh3 {
+    font-family: 'acumin-pro-condensed';
+  }
+  .successstoriesmain .ambassadors .reviewsh2 {
+    text-transform: uppercase;
+    font-size: 2em;
+    margin-top: 0;
+    font-weight: 500;
+    font-family: 'acumin-pro-condensed';
+  }
+  .successstoriesmain span.locationAddress .newsaddress {      
+    margin-left: 15px;
+  }
+  .successstoriesmain span.locationAddress {
+    display: block; 
+    text-align:left;
+    margin-top: 10px;  
+  }
+
+  @media only screen and (min-width: 768px){
+    .successstoriesmain span.locationAddress {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 10px;
+      font-family: 'acumin-pro-condensed';
+      font-weight: 800;
+      font-size: 1em;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+    .successstoriesmain span.locationAddress span i.fa-stack-2x{
+      font-size: 1.6em;
+    }
+    .successstoriesmain span.locationAddress span i.fa{
+      font-size: smaller;
+    }
+  }
+  .successstoriesmain .fa-stack{
+  }
+  .img-circle {
+    height: 65px;
+    width: 65px;
+  }
+
+
+  @media only screen and (max-width: 767px){
+    .successstoriesmain .results .juicer {
+      margin-top: -96px;
+      padding-top: 142px;
+      background-size: cover;
+      background: url(../../root/assets/images/textures/successstoriesmainmbbg.png);
+      position: relative;
+      /*top: -120px;*/
+    }
+    .successstoriesmain span.locationAddress span.fa-stack{
+      	font-size: x-small;
+      	line-height: 3em;
+    }
+    .successstoriesmain .results .results_profile>.col-sm-3 .locationAddress .newsaddress{
+    	font-size: 1.2em;
+      	letter-spacing: 1px;
+    }
+	.pageHeroImgHeight{
+		min-height: 250px;
+	}
+  }
+  .successstoriesmain span.locationAddress {
+  	display: flex;
+    text-transform: uppercase;
+    align-items: flex-start;
+    font-family: 'acumin-pro-condensed';
+  }
+  .successstoriesmain .successstories .titleMain {
+    background: url(../../root/assets/images/textures/heroTextBg-Texture.png);
+    padding:0 18px 0 50px;
+  }
+  .successstoriesmain .reviews .reviewsText{
+    font-family: 'acumin-pro-condensed';
+    text-transform: uppercase;
+  }
+
+  .successstoriesmain .results .juicer {
+    /*padding-top: 90px;*/
+  }
+  @media only screen and (min-width: 992px) {
+    .successstoriesmain .results .juicer {
+      position: relative;
+      top: -50px;
+      padding: 116px  0 64px 0
+    }
+    .successstoriesmain #reviews .reviewsText {
+      font-size: 2.3em;
+      font-family: 'acumin-pro-condensed';
+      font-weight: 500;
+    }
+    .successstoriesmain #reviews .readmore span.address {
+      margin-left: 24px;
+      margin-top: -7px;
+    }
+  }
+  .successstoriesmain #reviews .readmore i {
+    padding-left: 0;
+  }
+  .successstoriesmain .likethis #contentAreaBulletPoints p{
+    margin-top: 0;
+  }
+  #reviews-carosel1 .carousel-controls {
+    bottom: 0 !important;
+  }
+  #ambassadors #reviews-carosel1 {
+    padding:0;
+  }
+  #ambassadors #reviews-carosel1 .reviewsText {
+    font-size: 1em !important;
+    font-family: 'acumin-pro' !important;
+    font-weight: 400 !important;
+    text-transform: none;
+  }
+  @media only screen and (max-width: 991px){
+    .successstoriesmain .ambassadors .slide-left{
+      padding:0 !important;
+    }
+  }
+
+  /* Start WGrotateDiv Angle */
+  .successstoriesmain .results .WGrotateDiv{
+    transform: rotate(-7deg);
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  @media only screen and (min-width: 768px)
+  {
+    .successstoriesmain .results .juicer{
+      background-size: cover;
+    }
+  }
+
+  @media only screen and (min-width: 1700px)
+  {
+    .successstoriesmain .results .juicer{
+      background-size: 100% 100%;
+    }
+    .successstoriesmain .results .WGrotateDiv{
+      transform: rotate(-6deg);
+    }
+  }
+  @media only screen and (min-width: 2000px)
+  {
+    .successstoriesmain .results .WGrotateDiv{
+      transform: rotate(-5deg);
+    }
+  }
+  /* End  WGrotateDiv Angle */
+  
+  
+  .reviews .address {
+    display: inline-table;
+  }
+
+  @media only screen and (max-width: 991px){
+    .successstoriesmain #ambassadors .swiper-container.gallery-thumbs1{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .successstoriesmain .ambassadors .spacing{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    #ambassadors .swiper-container.gallery-thumbs1 {
+      float: none;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  @media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .successstoriesmain .results .results_profile > .col-sm-3 .locationAddress .newsaddress{
+      /*font-size:calc(1vw); */
+    }
+    .successstoriesmain span.locationAddress .newsaddress {
+      margin-left: 20px;
+    }
+  }
+  @media only screen and (max-width: 991px) and (min-width: 768px) {
+    .successstoriesmain .results .results_profile > .col-sm-3 .locationAddress .newsaddress{
+      /*font-size:calc(1.5vw);*/
+    }
+    .successstoriesmain span.locationAddress .newsaddress {
+      margin-left: 20px;
+    }
+  }
+  .successstoriesmain .results .results_profile > .col-sm-3 #peoplecontent{
+  }
+  
+  
+  @media only screen and (max-width: 992px) {
+    .successstoriesmain {
+      position: relative; 
+    }
+  }
+  @media only screen and (max-width: 992px) and  (min-width: 768px) {
+    .successstoriesmain {
+      position: relative;
+      /*top: 130px;*/
+    }
+  } 
+  @media only screen and (max-width: 991px) and (min-width: 768px){
+    .successstoriesmain .results .juicer {
+     /* margin-bottom: 23%;*/
+    }
+  }
+  
+   @media only screen and (min-width: 992px){
+    .successstoriesmain .likethis #contentAreaBulletPoints{
+      -webkit-column-count: 2;
+      -moz-column-count: 2;
+      column-count: 2;
+      -webkit-column-gap: 55px;
+      -moz-column-gap: 55px;
+      column-gap: 55px;
+    } 
+  }
+  @media only screen and (min-width: 768px){
+    .successstoriesmain .likethis #contentAreaBulletPoints{
+      font-size: 1em;
+    }
+  }
+  .successstoriesmain .likethis #contentAreaBulletPoints ul{
+    padding-left:7px;
+    list-style-type: none;
+    list-style-image: url('../../root/assets/images/dot.png');
+  }
+  .successstoriesmain .likethis #contentAreaBulletPoints ul li{
+    margin-top: 5px;
+  }
+  /* .successstoriesmain .likethis #contentAreaBulletPoints ul li span{
+  color:#212121;
+  }*/
+  .successstoriesmain .likethis #titleText{
+    margin-top:0px;
+    font-size: 3em;    
+  }
+  .successstoriesmain .likethis #headLineText{
+    margin-bottom:0px   
+  }
+  
+  
+   @media only screen and (max-width: 767px){
+	.reviews .reviewsText {
+		font-size: 1.5em;
+		font-weight: 600;
+	}
+    .reviews .carousel-controls{
+        margin-top: 30px;
+    }
+    .reviews.reviewsForHome .reviewsText {
+		min-height: 0px;
+		height: auto;
+	}
+  }

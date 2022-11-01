@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.fonts.net	TRUE	/	FALSE	1999999999	__cf_bm	nwXRC3GyIUU49CWsk5zgomcSVT7Tnosz_KiAIAb9E_g-1667039671-0-AWDDa6OnTTIyIBpwNF/Z5HOkqLK+Es3xu/Y54Vr4Y4FJP1Hd8xrKAGRXSDN0ulz3YTX3SUlPxiFwDNmapzq0QAA=
+fast.fonts.net	TRUE	/	FALSE	1999999999	SameSite	None
+
